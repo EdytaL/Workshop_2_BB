@@ -1,0 +1,13 @@
+@mixin border-radius($px1, $px2) {
+    -webkit-border-radius: $px1 $px2;
+    -moz-border-radius: $px1 $px2;
+    -ms-border-radius: $px1 $px2;
+    border-radius: $px1 $px2;
+}
+
+@mixin border-radius-left-only($px) {
+    -webkit-border-radius: $px 0 0 $px;
+    -moz-border-radius: $px 0 0 $px;
+    -ms-border-radius: $px 0 0 $px;
+    border-radius: $px 0 0 $px;
+}

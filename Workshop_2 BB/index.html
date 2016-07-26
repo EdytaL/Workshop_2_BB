@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Bezpieczny Bank</title>
 	<link rel="stylesheet" type="text/css" href="bower_components/skeleton/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/themes/base/jquery-ui.min.css">
 	<link rel="stylesheet" type="text/css" href="bower_components/skeleton/css/skeleton.css">
 	<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -70,17 +71,26 @@
             </div>
             <div class="seven columns">
                 <h1>Kredyt hipoteczny</h1>
-                <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis</p>
+                <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna.  </p>
             
                 <a href="#wiecej">Dowiedz się więcej</a>
             </div>
         </div>
         
-        <div class="six columns">
-            <p>Pożyczka gotówkowa</p>
-            <div class="slider"></div>
+        <div class="six columns sliders">
+            <h1>Pożyczka gotówkowa</h1>
+            
+            <label>Kwota</label>
+            <span class="kwota"></span>
+            <div class="slider1"></div>
+            
+            <label>Ilość rat</label>
+            <span class="rata"></span>
+            <div class="slider2"></div>
+            
             <p>Rata
-                <input type="text">
+                <span class="raty"></span>
+
             </p>
             <a href="#wiecej">Dowiedz się więcej</a>
         </div>
@@ -172,15 +182,25 @@
     </section>
     
     <footer class="container">
-        <div class="eight columns">
-            <p>801 222 222</p>
-            <p>&copy;<span>2015</span>BB Bezpieczny bank S.A. Wszelkie prawa zastrzeżone. Korzystanie z serwisu oznacza akceptację regulaminu.</p>
-        </div>
-        <div class="four columns">
-            <div>Mapa serwisu</div>
-            <div>English</div>
-            <div>Twitter</div>
-            <div>Facebook</div>
+        
+            <div class="row">
+                <div class="columns">801 222 222</div>
+            </div>
+            <div class="row">
+        
+                <div class="eight columns">
+                    <p>&copy;<span>2015</span>BB Bezpieczny bank S.A. Wszelkie prawa zastrzeżone. Korzystanie z serwisu oznacza akceptację regulaminu.</p>
+                </div>
+            
+        
+            <div class="four columns">
+                <ul> 
+                    <li>Mapa serwisu</li>
+                    <li>English</li>
+                    <li>Twitter</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
         </div>
     </footer>
 
@@ -188,6 +208,7 @@
 
 <!--JS SCRIPTS -->
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 	
 </body>

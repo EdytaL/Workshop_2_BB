@@ -14,3 +14,5 @@
 [0724/141745:WARNING:in_range_cast.h(38)] value 696407218730 out of range
 [0724/141745:WARNING:in_range_cast.h(38)] value 696407222646 out of range
 [0724/141745:WARNING:in_range_cast.h(38)] value 696407218416 out of range
+[0725/170451:ERROR:file_io.cc(30)] read: expected 36, observed 0
+[0725/170451:ERROR:file_io.cc(30)] read: expected 36, observed 0

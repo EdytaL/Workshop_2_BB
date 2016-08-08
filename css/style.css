@@ -261,8 +261,9 @@ body {
   /* line 157, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   .banner div.columns #line {
     position: absolute;
-    top: 0; }
-  /* line 162, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+    top: 0;
+    left: 0; }
+  /* line 163, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   .banner div.offer-box {
     display: flex;
     flex-direction: column;
@@ -278,19 +279,19 @@ body {
     -moz-border-radius: 10px 0 0 10px;
     -ms-border-radius: 10px 0 0 10px;
     border-radius: 10px 0 0 10px; }
-    /* line 176, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+    /* line 177, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
     .banner div.offer-box h1 {
       font-family: "Raleway", "Serif", "sans-serif";
       font-size: 3.2rem;
       text-transform: uppercase;
       font-weight: 500; }
-    /* line 182, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+    /* line 183, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
     .banner div.offer-box h3 {
       font-family: "Raleway", "Serif", "sans-serif";
       font-size: 2rem;
       margin-bottom: 0;
       letter-spacing: 0.02rem; }
-    /* line 189, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+    /* line 190, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
     .banner div.offer-box button {
       font-family: "Raleway", "Serif", "sans-serif";
       font-size: 1.6rem;
@@ -310,73 +311,73 @@ body {
       border-radius: 10px 10px; }
 
 /*section - class offer*/
-/* line 212, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+/* line 213, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
 .offer {
   display: flex;
   background-color: white;
   font-family: "Raleway", "Serif", "sans-serif";
   padding: 20px 0 0 0; }
-  /* line 218, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+  /* line 219, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   .offer div {
     text-align: left;
     padding: 15px 20px 0 10px; }
-    /* line 222, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+    /* line 223, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
     .offer div p {
       font-size: 1.5rem;
       line-height: 2rem;
       padding-right: 10px; }
-  /* line 231, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+  /* line 232, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   .offer .five.columns {
     /*img keys*/ }
-    /* line 232, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+    /* line 233, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
     .offer .five.columns img {
       margin-top: 30px; }
-  /* line 237, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+  /* line 238, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   .offer .seven.columns h1 {
     font-size: 3rem;
     padding: 0 20px 20px 0; }
-  /* line 241, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+  /* line 242, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   .offer .seven.columns p {
     padding-bottom: 20px; }
-  /* line 245, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+  /* line 246, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   .offer .sliders {
     padding-left: 75px;
     padding-right: 75px; }
-    /* line 249, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+    /* line 250, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
     .offer .sliders h1 {
       font-size: 3rem;
       padding: 20px 20px 20px 0; }
-    /* line 254, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+    /* line 255, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
     .offer .sliders p {
       font-weight: bold; }
-    /* line 257, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+    /* line 258, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
     .offer .sliders .ui-slider-horizontal {
       height: 0.1rem;
       margin: 15px 15px 15px 0; }
-      /* line 262, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+      /* line 263, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
       .offer .sliders .ui-slider-horizontal .ui-slider-range {
         height: 1rem; }
-      /* line 265, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+      /* line 266, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
       .offer .sliders .ui-slider-horizontal .ui-slider-handle {
         background: #4FC3D8;
         border: none;
         width: 3rem;
         height: 2.5rem; }
 
-/* line 277, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+/* line 278, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
 .learn-more {
   display: flex;
   background-color: white;
   font-family: "Raleway", "Serif", "sans-serif";
   padding: 0 0 20px 0; }
-  /* line 283, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+  /* line 284, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   .learn-more a {
     float: right;
     font-size: 2rem;
     padding-right: 75px; }
 
 /*section -class contact*/
-/* line 293, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+/* line 294, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
 .contact {
   background-color: #4FC3D8;
   padding: 60px 50px 75px 50px;
@@ -384,20 +385,20 @@ body {
   justify-content: center;
   color: white;
   font-family: "Raleway", "Serif", "sans-serif"; }
-  /* line 300, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+  /* line 301, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   .contact div {
     align-items: center;
     text-align: center; }
-  /* line 305, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+  /* line 306, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   .contact h1 {
     padding-top: 15px;
     font-size: 3.2rem;
     margin-bottom: 0; }
-  /* line 310, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+  /* line 311, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   .contact h3 {
     font-size: 1.5rem;
     letter-spacing: 0.02rem; }
-  /* line 314, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+  /* line 315, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   .contact button {
     font-size: 2rem;
     border: 1px solid white;
@@ -410,57 +411,57 @@ body {
     -moz-border-radius: 10px 10px;
     -ms-border-radius: 10px 10px;
     border-radius: 10px 10px; }
-  /* line 324, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+  /* line 325, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   .contact .ask {
     padding: 5px 75px 5px 75px; }
-  /* line 327, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+  /* line 328, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   .contact .check-this {
     padding: 5px 75px 5px 75px; }
 
-/* line 333, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+/* line 334, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
 .info {
   font-family: "Raleway", "Serif", "sans-serif";
   background-color: white;
   padding-left: 70px;
   padding-right: 70px; }
-  /* line 338, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+  /* line 339, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   .info div {
     display: flex;
     justify-content: center;
     padding-top: 30px; }
-    /* line 343, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+    /* line 344, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
     .info div ul {
       list-style-type: square;
       font-size: 1.9rem;
       font-weight: bold;
       color: #8f8f8f; }
-    /* line 349, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+    /* line 350, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
     .info div li {
       line-height: 2.5rem;
       font-size: 1.5rem;
       color: #8f8f8f;
       font-weight: normal; }
 
-/* line 358, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+/* line 359, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
 footer {
   font-family: "Raleway", "Serif", "sans-serif";
   font-size: 1.3rem;
   color: #8f8f8f; }
-  /* line 363, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+  /* line 364, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   footer .eight.columns div {
     width: 100%; }
-  /* line 368, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+  /* line 369, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   footer .four.columns li {
     border-right: 1px solid #8f8f8f;
     padding-right: 10px;
     padding-left: 10px; }
-  /* line 374, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+  /* line 375, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
   footer .four.columns ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-end; }
-    /* line 379, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
+    /* line 380, Z:/CodersLab/Warsztaty/Workshop_2 BB/scss/style.scss */
     footer .four.columns ul ul:last-child {
       border: none; }
 

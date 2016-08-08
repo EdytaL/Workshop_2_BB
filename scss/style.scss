@@ -317,16 +317,11 @@ body{
         border: 1px solid white;
         color: white;
         text-transform: none;
+        text-align: center;
         font-weight: normal;
-        padding: 5px 35px 5px 35px;
+        width: 250px;
         height: 55px;
         @include border-radius(10px, 10px);
-    }
-    .ask {
-        padding: 5px 75px 5px 75px;
-    }
-    .check-this {
-        padding: 5px 75px 5px 75px;
     }
 }
 

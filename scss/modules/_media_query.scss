@@ -1,0 +1,167 @@
+@media screen and (max-width: 1103px) {
+    .container {
+        min-width: 1vw;
+        width: 100%;
+    }
+    
+    .menu {
+        height: 6rem;
+        .menu-hidden {
+            display: none;
+        }
+        span {
+            position: absolute;
+            right: 20px;
+            top: 10px;
+        }
+    }
+    
+    .menu-hamburger {
+        label {
+            display: inline-block;
+        }
+    }
+    .navigation {
+        display: inline-block;
+    }
+   
+    
+    .banner {
+        padding-top: 0;
+        div.offer-box {
+            top: 20%;
+        }
+    }
+    
+    div.columns {
+        img:first-child {
+            height: inherit;
+        }
+        #line {
+            width: 1vw;
+        }
+    }
+   
+    .offer {
+        display: block;
+        .six.columns {
+            width: 100%;
+            padding: 15px;
+            h1 {
+                text-align: center;
+            }
+            
+        }
+        .six.columns.sliders {
+            padding-left: 30px;
+            padding-right: 70px;
+            width: 100%;
+        }
+    }
+    .contact {
+        display: block;
+        .four.columns {
+            width: 100%;
+            margin-bottom: 30px;
+            margin-left: 0;
+            align-items: center;
+        }
+    }
+    .info {
+        display: block;
+        li {
+            display: none;
+        }
+        .four.columns {
+            width: 100%;
+            padding: 0;
+            padding-top: 20px;
+            margin: 0;
+        
+        }
+    }
+    footer {
+        .eight.columns, .columns, .four.columns {
+            width: 100%;
+            text-align: center;
+            margin: 0;
+        }
+        
+    }
+    
+}
+
+@media screen and (max-width: 770px) {
+    .top {
+    
+        .button {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        div {
+            width: 33%;
+            margin: 0;
+        }
+    }
+    
+    .banner { 
+        display: inline-block;
+        div.offer-box{
+            display: flex;
+            align-items: center;
+            position: relative;
+            top: inherit;
+            width: 100%;
+            text-align: center;
+            @include border-radius(10px, 10px);
+            
+            button {
+                position: relative;
+                left: 0;
+            }
+        }
+    };
+    
+}
+@media screen and (max-width: 550px) {
+    .top {
+        form {
+            display: none;
+        };
+    }
+    .offer {
+        .five.columns {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                width: 20%;
+            }
+        }
+        .seven.columns {
+            width: 100%;
+            text-align: center;
+        }
+        .six.columns {
+            .learn-more {
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 400px) {
+    .banner {
+        img {
+            display: none;
+        }
+        div.offer-box {
+            height: inherit;
+            padding-left : 10px;
+        }
+    }
+    .navigation {
+        top: 55px;
+    }
+    
+}   

@@ -37,17 +37,33 @@
         </div>
 	</header>
 
+    <nav class="menu-hamburger container">
+        <ul class="navigation">
+            <li class="nav-item"><a href="#">Individual customers</a></li>
+            <li class="nav-item"><a href="#">Entrepreneur</a></li>
+            <li class="nav-item"><a href="#">Companies</a></li>
+            <li class="nav-item"><a href="#">Farmers</a></li>
+            <li class="nav-item"><a href="#"> Corporations</a></li>
+            <li class="nav-item"><a href="#">Students</a></li>   
+        </ul>
+        <input type="checkbox" id="nav-trigger" class="nav-trigger"/>
+        <label for="nav-trigger"></label>
+    </nav>
+    
+    
 	<section class="container menu"> 
-		<div class="nine columns">
-				<ul>
-					<li>Individual customers</li>
-					<li>Entrepreneur</li>
-					<li>Companies</li>
-					<li>Farmers</li>
-					<li>Corporations</li>
-					<li>Students</li>
-				</ul>
-
+       
+		<div class="nine columns menu-hidden">
+            <ul>
+                <li class="nav-item-normal"><a href="#">Individual customers</a></li>
+				<li class="nav-item-normal"><a href="#">Entrepreneur</a></li>
+				<li class="nav-item-normal"><a href="#">Companies</a></li>
+                <li class="nav-item-normal"><a href="#">Farmers</a></li>
+                <li class="nav-item-normal"><a href="#"> Corporations</a></li>
+                <li class="nav-item-normal"><a href="#">Students</a></li>
+            </ul>
+            
+            
 		</div>
         <div class="three columns">
             <span>Safe Bank</span>
@@ -73,33 +89,38 @@
             </div>
             <div class="seven columns">
                 <h1>Mortgage credit</h1>
-                <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Curabitur et ligula. Ut molestie a, ultricies porta urna. </p>
+                <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Curabitur et ligula. Ut molestie a, ultricies porta urna. Curabitur et ligula.</p>
+            </div>
             
-                
+            <div class="twelve columns learn-more">
+                <a href="#wiecej">Learn more</a>
             </div>
         </div>
         
         <div class="six columns sliders">
             <h1>Cash loan</h1>
-            
-            <label>Amount  <span class="kwota"> </span> </label>
+            <div class="sliders-text">
+                <label class="six columns">Amount</label>
+                <span class="kwota six columns"></span>
+            </div>
             
             <div class="slider1"></div>
             
-            <label>Number of installments   <span class="rata"></span></label>
-            
+            <div class="sliders-text">
+                <label class="six columns">Number of installments</label>
+                <span class="rata six columns"></span>
+            </div>
+
             <div class="slider2"></div>
             
             <p>Installment
                 <span class="raty"></span>
                 €
             </p>
-           
+            <div class="twelve columns learn-more">
+                <a href="#wiecej">Learn more</a>
+            </div>
         </div>
-    </section>
-    <section class="container learn-more">
-        <div class="seven columns learn-p"><a href="#wiecej">Learn more</a></div>
-        <div class="six columns learn-p"> <a href="#wiecej">Learn more</a></div>
     </section>
     
     <section class="container contact">
@@ -149,40 +170,40 @@
     <section class="container info">
         <div class="four columns">
             <ul>Individual customers
-                <li>Accounts</li>
-                <li>Savings</li>
-                <li>Credits</li>
-                <li>Cards</li>
-                <li>Insurances</li>
-                <li>Investments</li>
-                <li>Programs</li>
-                <li>Electronic banking</li>
+                <li><a href="#">Accounts</a></li>
+                <li><a href="#">Savings</a></li>
+                <li><a href="#">Credits</a></li>
+                <li><a href="#">Cards</a></li>
+                <li><a href="#">Insurances</a></li>
+                <li><a href="#">Investments</a></li>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Electronic banking</a></li>
             </ul>
         </div>    
         
         <div class="four columns">
             <ul>VIP Premium customers
-                <li>Accounts</li>
-                <li>Deposits and investments</li>
-                <li>Credits</li>
-                <li>Cards</li>
-                <li>Insurances</li>
-                <li>Pnvestment insurance</li>
-                <li>Programs</li>
-                <li>Program VIP Premium</li>
+                <li><a href="#">Accounts</a></li>
+                <li><a href="#">Deposits and investments</a></li>
+                <li><a href="#">Credits</a></li>
+                <li><a href="#">Cards</a></li>
+                <li><a href="#">Insurances</a></li>
+                <li><a href="#">Investment insurance</a></li>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Program VIP Premium</a></li>
             </ul>
         </div>
     
         <div class="four columns">  
             <ul>Small businesses
-                <li>Accounts</li>
-                <li>Deposits and investments</li>
-                <li>Credits</li>
-                <li>Foreign exchange transactions </li>
-                <li>Bank guarantees </li>
-                <li>Payment terminals </li>
-                <li>Factoring</li>
-                <li>Electronic banking</li>
+                <li><a href="#">Accounts</a></li>
+                <li><a href="#">Deposits and investments</a></li>
+                <li><a href="#">Credits</a></li>
+                <li><a href="#">Foreign exchange transactions </a></li>
+                <li><a href="#">Bank guarantees</a></li>
+                <li><a href="#">Payment terminals</a></li>
+                <li><a href="#">Factoring</a></li>
+                <li><a href="#">Electronic banking</a></li>
             </ul>
         </div>
     </section>
@@ -209,6 +230,7 @@
             </div>
         </div>
     </footer>
+  
 
 	
 

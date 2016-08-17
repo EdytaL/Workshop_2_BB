@@ -4,6 +4,7 @@
 
 
 
+
 *{
 	
 	margin: 0;
@@ -20,12 +21,13 @@ body{
 .container {
 	min-width: $container-width;
     margin-bottom: 0;
+    position: relative;
 }
 .section {
     background-color: $section-background-color;
 }
 
-/*section: logo + input search*/
+/*-----------section: logo + input search--------------------*/
 .top { 
 	display: flex;
 	align-items: center;
@@ -72,10 +74,10 @@ body{
         border-radius: 0;
         margin-bottom: 0;
     }
-    .three.columns { /*div with button ZALOGUJ*/
+    .three.columns { /*div with button LOG IN*/
         margin-left: 0;
     }
-    .button { /*button ZALOGUJ*/
+    .button { /*button LOG IN*/
         
         height: 30px;
         padding: 0 55px 0 55px;
@@ -93,7 +95,7 @@ body{
 }
 
 
-/*section - class menu*/
+/*-----------section - class menu----------------------------*/
 .menu {
 	display: flex;
     background-color: $section-background-color;
@@ -101,9 +103,10 @@ body{
     text-align: right;
     padding: 20px 20px 0 10px;
     align-items: center;
-
+    position: relative;
+    
 	ul {
-        
+        display: none;
         display: flex;
         background-color: $section-background-color;
 		display: flex;
@@ -114,15 +117,19 @@ body{
         margin-bottom: 0;
         padding-top: 10px;
     }
-    li{
+    li {
         
         padding-right: 12px;
         padding-left: 12px;
 		font-size: 1.4rem;
 		color: $fonts-color-grey-header;
         border-right: 1px solid $fonts-color-grey-header;
-
 	}
+    
+    a {
+        text-decoration: none;
+        color: $fonts-color-grey-header;
+    }
     span { /*Bezpieczny Bank*/
         
         font-weight: bold;
@@ -132,9 +139,77 @@ body{
         align-self: flex-start;
         
     }
+    
 }
 
-/*section - class banner*/
+/*-----------navigation----------------*/
+
+.navigation {
+    
+    dispaly: none;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 69px;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    z-index: 0;
+    .nav-item {
+
+      width: 200px;
+      display: none;
+     
+    }
+    
+    .nav-item a {
+
+      display: block;
+      padding: 1em;
+      background: $baner-background-color;
+      color: white;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: color 0.2s, background 0.5s;
+    }
+    
+    .nav-item a:hover {
+      color:black;
+      background: $main-background-color;
+    }
+    
+   
+    .nav-trigger {
+  
+      position: absolute;
+      clip: rect(0, 0, 0, 0);
+      
+    }
+};
+
+.menu-hamburger {
+    
+    label { /*menu icon*/
+  
+      display: none;
+      position: absolute;
+      left: 15px; 
+      top: 15px;
+      z-index: 2;
+      height: 30px;
+      width: 30px;
+      cursor: pointer;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+      background-size: contain;
+    }
+};
+    #nav-trigger {
+        display: none;
+    }
+    
+
+/*-----------section - class banner-----------*/
 
 .banner {
     display: flex;
@@ -148,7 +223,7 @@ body{
     div.columns {
         
         img:first-child {
-            height: 450px;
+            max-height: 450px;
             z-index: 10;
             width: 100%;
             padding-bottom: 0
@@ -209,12 +284,18 @@ body{
     
 }
 
-/*section - class offer*/
+/*-----------section - class offer---------------------------*/
 .offer {
     display: flex;
     background-color: $section-background-color;
     font-family: $main-font-family;
     padding: 20px 0 0 0;
+    
+    a {
+        float: right;
+        font-size: 2rem;
+        margin-bottom: 25px;
+    }
     
     div {
         text-align: left;
@@ -229,13 +310,14 @@ body{
         
         
     }
+    
     .five.columns { /*img keys*/
         img { 
             margin-top: 30px;
         }
     }
     .seven.columns {
-         h1 {
+        h1 {
             font-size: 3rem;
             padding: 0 20px 20px 0;   
         }
@@ -243,22 +325,41 @@ body{
             padding-bottom: 20px;
         }
     }
+    
+    .sliders-text {
+        padding: 0;
+        display: flex;
+        span {
+            text-align: right;
+        }
+        
+    }
     .sliders {
         padding-left: 75px;
         padding-right: 75px;
         
         h1 {
             font-size: 3rem;
-            padding: 20px 20px 20px 0;   
+            padding: 20px 20px 0 0;   
         }
         
         p {
             font-weight: bold;
+            font-size: 2rem;
+            margin-bottom: 5px;
+            border-top: 4px solid $baner-background-color;
+            padding-top: 25px;
+        }
+        
+        .raty {
+            color: $baner-background-color;
+            font-weight: bold;
+            font-size: 2.5rem;
         }
         .ui-slider-horizontal {
            
             height: 0.1rem;
-            margin: 15px 15px 15px 0; 
+            margin: 15px 15px 25px 0;
             
             .ui-slider-range {
                 height: 1rem;
@@ -275,21 +376,8 @@ body{
     
 }
 
-.learn-more { 
-    display: flex;
-    background-color: $section-background-color;
-    font-family: $main-font-family;
-    padding: 0 0 20px 0;
-    
-    a {
-        float: right;
-        font-size: 2rem;
-        padding-right: 75px;
-    }
-}
 
-
-/*section -class contact*/
+/*-----------section -class contact--------------------------*/
 
 .contact {
     background-color: $baner-background-color;
@@ -325,7 +413,7 @@ body{
     }
 }
 
-//section -  class info//
+/*-----------section -  class info---------------------------*/
 .info {
     font-family: $main-font-family;
     background-color: white;
@@ -347,7 +435,12 @@ body{
             font-size: 1.5rem;
             color: $fonts-color-grey-header;
             font-weight: normal;
+            a {
+                text-decoration: none;
+                color: $fonts-color-grey-header;
+            }
         }
+        
     }
 }
 
@@ -380,3 +473,5 @@ footer {
         
     }
 }
+
+@import "modules/media_query";
